@@ -4,6 +4,9 @@
 
 **Gundog.sim** is an individual-based model that predicts the movement paths of animals by simulating their movement using dead-reckoning (DR) calculations through a spatial grid system. The model uses high-resolution dead-reckoning data to inform movement decisions, incorporating empirical distributions of fundamental step lengths (Fstepdistance), turn angles (Fturnangle), and compass headings (H). By dividing the movement landscape into grid cells with optional further segmenation of data by journey phase (outbound and inbound), the model dynamically adjusts agent movements to reflect realistic behavioral patterns observed in empirical studies.
 
+### Link to Preprint
+[High resolution data reveal fundamental steps andturning points in animal movements](https://www.researchgate.net/publication/387217845_High_resolution_data_reveal_fundamental_steps_and_turning_points_in_animal_movements)
+
 ### Key Features
 
 - **Empirical Distributions:** Incorporates empirical frequency distributions (Empirical Cumulative Distribution Functions, ECDFs) for compass heading, step lengths and turn angles specific to each grid cell and (optional) journey phase.
